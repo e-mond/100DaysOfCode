@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
     <title>Day 6</title>
 </head>
 <body>
@@ -15,14 +15,18 @@
             <h1>Facebook</h1>   
         </section>
         <form>
-            <div>
+            <div id="intro">
+               <div class="div"> 
                 <h1>Create an account</h1>
+               </div>
+               <div class="div">
                 <p>It's quick and easy</p>
+               </div>
             </div>
            
            <div>
             <input type="text" name="First name" placeholder="First name">
-            <input type="text" name="Last neme" placeholder="Last name">
+            <input type="text" name="Last name" placeholder="Last name">
            </div>
            <br>
            <div class="contactInfo">
@@ -30,9 +34,8 @@
            </div>
            <br>
             <div class="Password">
-                <input type="Password" name=" New Password" placeholder="New Password">
+                <input type="Password" name="New Password" placeholder="New Password">
             </div>
-    
     
             <br>
             <div class="Birthday">
@@ -51,9 +54,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                 </select>
-                
-            
-                <select  name="birthDay" id="birthDay">  
+                <select name="birthDay" id="birthDay">  
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -86,8 +87,6 @@
                     <option value="30">30</option>
                     <option value="31">31</option>
                 </select>
-                
-         
                 <select name="birthYear" id="birthYear">  
                     <option value="2024">2024</option>
                     <option value="2023">2023</option>
@@ -101,32 +100,28 @@
                     <option value="1906">1906</option>
                     <option value="1905">1905</option>
                 </select>
-        
             </div>
             <br>
             <div class="Gender">
                 <label for="Gender">Male</label>
                 <input type="radio" name="Gender">
-        
-           
                 <label for="Gender">Female</label>
                 <input type="radio" name="Gender">
-        
                 <label for="Gender">Custom</label>
                 <input type="radio" name="Gender">
             </div>
-    
            <div class="Quote">
             <h5>People who use our service may have uploaded your contact information to Facebook <a href="">Learn More</a></h5>
-    
+           </div>
+           <div class="Quote">
             <h5>By clicking Sign Up, you agree to our <a href="">Terms</a>, <a href="">Privacy Policy </a>and <a href=""> Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time</h5>
            </div>
-    
             <div class="Buttons">
-                <input type="button" value="Sign Up">
-                 <h4><a href="">Already have an account?</a></h4>
+                <input type="button" value="Sign Up" id="signup">
             </div>
-    
+            <div class="old-user">
+                <a href="" id="old-user-main">Already have an account?</a>
+            </div>
         </form>
     </center>
 </body>

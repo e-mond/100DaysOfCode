@@ -1,10 +1,80 @@
-body{
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
+
+#title h1 {
+  color: #1877F2;
+  font-weight: 800;
+}
+
+#intro .div h1, 
+#intro .div p, 
+input[name="First name"], 
+input[name="Last name"], 
+.Quote h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#intro .div h1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#intro .div p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+input[name="First name"], 
+input[name="Last name"] {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 8px;
+  margin: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.Quote h5 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+form {
+  background: #fff;
+  color: #1c1e21;
+  direction: ltr;
+  line-height: 1.34;
+  margin: 0;
+  padding: 0;
+  unicode-bidi: embed;
+  border: 5px solid #1877F2;
+  width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 432px;
+}
+
+#signup {
+  background: none;
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  height: 36px;
+  padding: 0 32px;
+}
+
+#old-user {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#old-user-main {
+  color: #1877f2;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
 }

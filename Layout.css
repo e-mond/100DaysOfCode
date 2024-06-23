@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+    padding: 0;
+    background-color: antiquewhite;
+    border: 8px solid rgb(241, 175, 175);
+}
+
+div {
+    margin: 10px;
+}
+
+#box1,
+#box2,
+#box4 {
+    padding: 10px;
+    background-color: aquamarine;
+    border: 5px solid seagreen;
+}
+
+#box1 {
+    height: 4vh;
+}
+
+#box2 {
+    height: 30vh;
+}
+
+#box3 {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#box3 > div {
+    width: 40%;
+    height: 36vh;
+    background-color: aquamarine;
+    border: 5px solid seagreen;
+    flex-direction: column;
+}
+
+#box4 {
+    height: 15vh;
+}
