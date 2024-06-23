@@ -1,0 +1,37 @@
+body{
+    background-color: darksalmon;
+}
+
+h1{
+    background-color: rgb(25, 60, 48);
+    color: blanchedalmond;
+}
+
+.flex-container{
+    display: flex;
+    height: 30vh;
+    
+}
+.flex-container > div{
+ background-color: goldenrod;
+ border: 5px solid  azure;
+ height: 20vh;
+ width: 30%;
+ color: aliceblue;
+ margin: 5px;
+}
+
+.flex-box{
+    display: flex;
+    height: 60vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-box > div{
+    background-color: green;
+    border: 5px solid  azure;
+    height: 20vh;
+    width: 30%;
+    color: aliceblue;
+    margin: 5px;
+   }

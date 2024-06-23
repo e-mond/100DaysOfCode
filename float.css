@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(204, 178, 228)
+}
+.float{
+    border: 2px sloid brown;
+    width: 100%;
+    height: 40vh;
+    padding: 10px;
+}
+img{
+    float: right;
+    margin: auto;
+    width: 20%;
+    height: 40vh;
+    padding: 10px;
+
+}
+
+p{
+    float: left;
+    margin: auto;
+    width: 40%;
+    height: 30vh;
+}
+
+.box{
+    height: 50vh;
+    width: 100%;
+    height: 60vh;
+    background-color: brown;
+}
+
+h2{
+    background-color: blanchedalmond;
+    height: 10vh;
+    width: 20%;
+    float: left;
+
+}
+
+h3{
+    color: whitesmoke;
+    width: 20%;
+    height: 10vh;
+    float: right;
+}
