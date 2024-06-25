@@ -10,37 +10,32 @@
     <title>Day 6</title>
 </head>
 <body>
-    <center>
-        <section id="title">
-            <h1>Facebook</h1>   
-        </section>
+    <div class="container">
+        <div class="img-container">
+            <img src="images/4lCu2zih0ca.svg" alt="facebook">
+        </div>
         <form>
             <div id="intro">
-               <div class="div"> 
-                <h1>Create an account</h1>
-               </div>
-               <div class="div">
-                <p>It's quick and easy</p>
-               </div>
+                <div class="div"> 
+                    <h1>Create an account</h1>
+                </div>
+                <div class="div">
+                    <p>It's quick and easy</p>
+                </div>
             </div>
-           
-           <div>
-            <input type="text" name="First name" placeholder="First name">
-            <input type="text" name="Last name" placeholder="Last name">
-           </div>
-           <br>
-           <div class="contactInfo">
-            <input type="text" placeholder="Mobile Number or Email" id="contactInfo">
-           </div>
-           <br>
+            <div class="Name">
+                <input type="text" name="First name" placeholder="First name">
+                <input type="text" name="Last name" placeholder="Last name">
+            </div>
+            <div class="contactInfo">
+                <input type="text" placeholder="Mobile Number or Email" id="contactInfo">
+            </div>
             <div class="Password">
-                <input type="Password" name="New Password" placeholder="New Password">
+                <input type="Password" name="New Password" placeholder="New Password" id="Password">
             </div>
-    
-            <br>
             <div class="Birthday">
-                <label>Birthday</label><br>
-                <select name="birthMonth" id="birthMonth">
+                <p>Birthday</p>
+                <select name="birthMonth" id="birthMonth" class="birthInfo">
                     <option value="1">January</option>
                     <option value="2">February</option>
                     <option value="3">March</option>
@@ -54,7 +49,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                 </select>
-                <select name="birthDay" id="birthDay">  
+                <select name="birthDay" id="birthDay" class="birthInfo">  
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -87,7 +82,7 @@
                     <option value="30">30</option>
                     <option value="31">31</option>
                 </select>
-                <select name="birthYear" id="birthYear">  
+                <select name="birthYear" id="birthYear" class="birthInfo">  
                     <option value="2024">2024</option>
                     <option value="2023">2023</option>
                     <option value="2022">2022</option>
@@ -101,21 +96,27 @@
                     <option value="1905">1905</option>
                 </select>
             </div>
-            <br>
+            <p id="Gender">Gender</p>
             <div class="Gender">
-                <label for="Gender">Male</label>
-                <input type="radio" name="Gender">
-                <label for="Gender">Female</label>
-                <input type="radio" name="Gender">
-                <label for="Gender">Custom</label>
-                <input type="radio" name="Gender">
+                <div>
+                    <label for="Female">Female</label>
+                    <input type="radio" name="Gender" id="Female">
+                </div>
+                <div>
+                    <label for="Male">Male</label>
+                    <input type="radio" name="Gender" id="Male">
+                </div>
+                <div>
+                    <label for="Custom">Custom</label>
+                    <input type="radio" name="Gender" id="Custom">
+                </div>
             </div>
-           <div class="Quote">
-            <h5>People who use our service may have uploaded your contact information to Facebook <a href="">Learn More</a></h5>
-           </div>
-           <div class="Quote">
-            <h5>By clicking Sign Up, you agree to our <a href="">Terms</a>, <a href="">Privacy Policy </a>and <a href=""> Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time</h5>
-           </div>
+            <div class="Quote">
+                <h5>People who use our service may have uploaded your contact information to Facebook <a href="">Learn More</a></h5>
+            </div>
+            <div class="Quote">
+                <h5>By clicking Sign Up, you agree to our <a href="">Terms</a>, <a href="">Privacy Policy </a>and <a href=""> Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time</h5>
+            </div>
             <div class="Buttons">
                 <input type="button" value="Sign Up" id="signup">
             </div>
@@ -123,6 +124,6 @@
                 <a href="" id="old-user-main">Already have an account?</a>
             </div>
         </form>
-    </center>
+    </div>
 </body>
 </html>

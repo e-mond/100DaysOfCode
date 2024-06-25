@@ -1,10 +1,29 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: rgb(235, 235, 235);
+  color: rgb(28, 30, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#title h1 {
-  color: #1877F2;
-  font-weight: 800;
+.img-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 100px;
+}
+
+#intro{
+  border-bottom: 1px solid #dadde1;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.Name, .contactInfo, .Password, .Birthday, .Gender {
+  margin: 10px 0;
 }
 
 #intro .div h1, 
@@ -26,18 +45,73 @@ input[name="Last name"],
 }
 
 input[name="First name"], 
-input[name="Last name"] {
+input[name="Last name"],
+#contactInfo, 
+#Password,
+.birthInfo {
   font-weight: 400;
   font-size: 14px;
   padding: 8px;
   margin: 4px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  width: calc(50% - 12px);
+  box-sizing: border-box;
+}
+
+#contactInfo, 
+#Password {
+  width: calc(103% - 24px);
+}
+
+.Birthday p,
+#Gender {
+  margin-bottom: 4px;
+  text-align: left !important;
+  color: rgb(96, 103, 112);
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+
+.Gender {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.2rem;
+  flex-direction: row;
+}
+
+.Gender > div {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccd0d5;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.Gender label {
+  margin-right: 8px;
+}
+
+.birthInfo {
+  width: calc(33% - 12px);
+  height: 36px;
+  margin: 4px;
 }
 
 .Quote h5 {
   font-weight: 300;
   font-size: 12px;
+}
+
+.Quote a{
+  color: #1877F2;
+  text-decoration: none;
 }
 
 form {
@@ -46,35 +120,45 @@ form {
   direction: ltr;
   line-height: 1.34;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   unicode-bidi: embed;
-  border: 5px solid #1877F2;
-  width: 60%;
+  width: 432px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
-  width: 432px;
+  position: relative;
+  justify-content: center;
 }
 
 #signup {
-  background: none;
   background-color: #00a400;
   border: none;
   border-radius: 6px;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   height: 36px;
   padding: 0 32px;
+  cursor: pointer;
 }
 
-#old-user {
-  padding: 10px 0;
-  text-align: center;
+#signup:hover {
+  background-color: #008c00;
 }
 
 #old-user-main {
   color: #1877f2;
-  font-size: 17px;
-  font-weight: 600;
   text-decoration: none;
+  padding: 0 20px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#old-user-main:hover {
+  text-decoration: none;
+}
+
+.Buttons,
+.old-user {
+  width: 100%;
+  text-align: center;
 }
