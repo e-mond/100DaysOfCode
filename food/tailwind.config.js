@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     './src/**/*.{html,js,jsx,ts,tsx}', // Adjust this as necessary
-    './index.html',
+    './tailwind.html',
   ],
   theme: {
     extend: {},
