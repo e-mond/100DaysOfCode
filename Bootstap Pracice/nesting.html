@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/nesting.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/custom-styles.css">
+    <title>Nesting</title>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row mb-4">
+            <div class="col-md-6 nesting-col p-3 rounded shadow-sm">
+                <h4 class="text-center">Fun Fact</h4>
+                <p>Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible.</p>
+                <div class="row">
+                    <div class="col-md-6 nesting-col-a p-2 rounded mt-3">
+                        <h5 class="text-center">Science</h5>
+                        <p>Water can boil and freeze at the same time. This is known as the triple point.</p>
+                    </div>
+                    <div class="col-md-6 nesting-col-b p-2 rounded mt-3">
+                        <h5 class="text-center">Math</h5>
+                        <p>The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 nesting-col2 p-3 rounded shadow-sm">
+                <h4 class="text-center">Quote</h4>
+                <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+                <h5 class="text-center">History</h5>
+                <p>The Great Wall of China is over 13,000 miles long, built to protect Chinese states and empires.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 down p-3 rounded shadow-sm">
+                <h4 class="text-center">Inspiration</h4>
+                <p>"The best way to predict the future is to create it." - Peter Drucker</p>
+                <h5 class="text-center">Space</h5>
+                <p>There are more stars in the universe than grains of sand on all Earth's beaches.</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>

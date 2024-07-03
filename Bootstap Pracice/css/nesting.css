@@ -1,0 +1,57 @@
+body{
+    background-color: purple;
+}
+
+.nesting-col {
+    background-color: #eaebebaa;
+    color: #333;
+    
+}
+
+.nesting-col2 {
+    background-color: #e9ecef;
+    color: #333;
+}
+
+.nesting-col-a {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.nesting-col-b {
+    background-color: #adb5bd;
+    color: #333;
+}
+
+.down {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+h4, h5 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+.p-3 {
+    padding: 15px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.mb-4 {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}

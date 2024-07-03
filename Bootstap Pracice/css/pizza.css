@@ -1,0 +1,73 @@
+.nav-color {
+    background-color: #4A4A4A; 
+}
+
+.link-item {
+    color: #FFD700 !important; 
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+}
+
+#footer {
+    background-color: #4A4A4A; 
+    padding: 20px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    color: #FFD700; 
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #4A4A4A; 
+}
+
+.card-body {
+    background-color: #FFD700; 
+    color: #4A4A4A;
+}
+
+.card-text {
+    color: #4A4A4A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
